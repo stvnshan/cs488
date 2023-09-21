@@ -1,4 +1,4 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #include <glm/ext.hpp>
 
@@ -24,7 +24,7 @@ void A4_Render(
 
   // Fill in raytracing code here...  
 
-  std::cout << "F23: Calling A4_Render(\n" <<
+  std::cout << "F20: Calling A4_Render(\n" <<
 		  "\t" << *root <<
           "\t" << "Image(width:" << image.width() << ", height:" << image.height() << ")\n"
           "\t" << "eye:  " << glm::to_string(eye) << std::endl <<

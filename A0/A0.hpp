@@ -1,4 +1,4 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #pragma once
 
@@ -32,7 +32,6 @@ protected:
 	void uploadTriangleDataToVbo();
 	void mapVboDataToShaderAttributeLocation();
 	void uploadUniformsToShader();
-	void reset();
 
 	GLuint m_vao_triangle; // Vertex Array Object
 	GLuint m_vbo_triangle; // Vertex Buffer Object
@@ -64,6 +63,4 @@ protected:
 
 	// True if mouse button is currently down.
 	bool m_mouseButtonActive;
-
-	
 };

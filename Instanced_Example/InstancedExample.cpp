@@ -1,4 +1,4 @@
-// Fall 2023
+// Spring 2020
 
 #include "InstancedExample.hpp"
 #include "cs488-framework/GlErrorCheck.hpp"

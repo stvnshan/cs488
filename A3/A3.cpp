@@ -1,4 +1,4 @@
-// Termm-Fall 2023
+// Termm-Fall 2020
 
 #include "A3.hpp"
 #include "scene_lua.hpp"
@@ -50,7 +50,7 @@ A3::~A3()
 void A3::init()
 {
 	// Set the background colour.
-	glClearColor(0.2, 0.5, 0.3, 1.0);
+	glClearColor(0.85, 0.85, 0.85, 1.0);
 
 	createShaderProgram();
 

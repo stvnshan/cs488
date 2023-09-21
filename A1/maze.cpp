@@ -1,11 +1,9 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #include <algorithm>
 #include <cstdio>
 
 #include "maze.hpp"
-
-// Maze::Maze () : m_dim{0}{ m_values = nullptr; }
 
 Maze::Maze( size_t D )
 	: m_dim( D )
@@ -134,56 +132,28 @@ void Maze::digMaze()
 		}
 	}
 
-	// clear out rings
-	for (i=1; i<m_dim; i+=2) {
-		for (j=i; j<m_dim-i; j++) {
-			setValue(i,j,0);
-			setValue(m_dim-i-1,m_dim-j-1,0);
-			setValue(j,i,0);
-			setValue(m_dim-j-1,m_dim-i-1,0);
-		}
-	}
-	// Open and Block rings
-	int s,pm;
-	s=random()%(11-4+1)+4;
-	pm = random()%2;
-	setValue(s,2,0);
-	if (pm)  { setValue(s+1,1,1); } else { setValue(s-1,1,1); }
-
-	s=random()%(11-4+1)+4;
-	setValue(s,13,0);
-	if (pm)  { setValue(s-1,14,1); } else { setValue(s+1,14,1); }
-
-
-	pm = random()%2;
-	s=random()%(10-5+1)+5;
-	setValue(4,s,0);
-	if (pm) { setValue(3,s+1,1); } else { setValue(3,s-1,1); }
-
-	s=random()%(10-5+1)+5;
-	setValue(11,s,0);
-	if (pm) { setValue(12,s-1,1); } else { setValue(12,s+1,1); }
-
-
-	pm = random()%2;
-	s=random()%(8-7+1)+7;
-	setValue(s,6,0);
-	if (pm)  { setValue(s+1,5,1); } else { setValue(s-1,5,1); }
-
-	s=random()%(8-7+1)+7;
-	setValue(s,9,0);
-	if (pm) { setValue(s-1,10,1); } else { setValue(s+1,10,1); }
-	
 	// pick random start location
-	s=random()%(m_dim-2)+1;
+	int s=random()%(m_dim-2)+1;
 	setValue(0,s,0);
 	setValue(1,s,0);
-	// find an end location
+	recDigMaze(1,s);
 	do {
 		s=rand()%(m_dim-2)+1;
 		if ( getValue(m_dim-2,s)==0 ) {
 			setValue(m_dim-1,s,0);
 		}
 	} while (getValue(m_dim-1,s)==1);
+	setValue(m_dim/2-2,m_dim/2-1,0);
+        setValue(m_dim/2-2,m_dim/2,0);
+        setValue(m_dim/2-2,m_dim/2+1,0);
+        setValue(m_dim/2-1,m_dim/2-1,0);
+        setValue(m_dim/2-1,m_dim/2,1);
+        setValue(m_dim/2-1,m_dim/2+1,0);
+        setValue(m_dim/2,m_dim/2-1,0);
+        setValue(m_dim/2,m_dim/2,1);
+        setValue(m_dim/2,m_dim/2+1,0);
+        setValue(m_dim/2+1,m_dim/2-1,0);
+        setValue(m_dim/2+1,m_dim/2,0);
+        setValue(m_dim/2+1,m_dim/2+1,0);
 
 }

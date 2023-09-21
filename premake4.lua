@@ -15,20 +15,20 @@ PLATFORM = os.get()
 -- Build glfw3 static library and copy it into <cs488_root>/lib if it is not
 -- already present.
 if not os.isfile("lib/libglfw3.a") then
-    os.chdir("shared/glfw-3.3.8")
+    os.chdir("shared/glfw-3.3")
     os.mkdir("build")
     os.chdir("build")
     os.execute("cmake ../")
     os.execute("make")
     os.chdir("../../../")
     os.mkdir("lib")
-    os.execute("cp shared/glfw-3.3.8/build/src/libglfw3.a lib/")
+    os.execute("cp shared/glfw-3.3/build/src/libglfw3.a lib/")
 end
 
 -- Build lua-5.3.1 library and copyt it into <cs488_root>/lib if it is not
 -- already present.
 if not os.isfile("lib/liblua.a") then
-    os.chdir("shared/lua-5.4.6")
+    os.chdir("shared/lua-5.3.1")
 
     if PLATFORM == "macosx" then
         os.execute("make macosx")
@@ -39,7 +39,7 @@ if not os.isfile("lib/liblua.a") then
     end
 
     os.chdir("../../")
-    os.execute("cp shared/lua-5.4.6/src/liblua.a lib/")
+    os.execute("cp shared/lua-5.3.1/src/liblua.a lib/")
 end
 
 

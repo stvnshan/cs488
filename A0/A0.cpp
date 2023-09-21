@@ -1,4 +1,4 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #include "A0.hpp"
 #include "cs488-framework/GlErrorCheck.hpp"
@@ -44,7 +44,7 @@ A0::~A0()
 void A0::init()
 {
 	// Set the background colour.
-	glClearColor(0.2, 0.5, 0.3, 1.0);
+	glClearColor(0.3, 0.5, 0.7, 1.0);
 
 	createShaderProgram();
 
@@ -199,47 +199,22 @@ void A0::guiLogic()
 
 	ImGui::Begin("Shape Properties", &showDebugWindow, ImVec2(100,100), opacity,
 			windowFlags);
-
-		// Create Button, and check if it was clicked:
-		//create quit button
-		if( ImGui::Button( "Quit Application" ) ) {
-			glfwSetWindowShouldClose(m_window, GL_TRUE);
-		}
-		// create reset button
-		if(ImGui::Button("Reset")){
-			reset();
-		}
-
-
 		// Retrieve red color component from slider and store in the first element of
 		// m_shape_color.
 		ImGui::SliderFloat("Red Channel", &m_shape_color.r, 0.0f, 1.0f);
-		//Green Channel - retrieve green color
-		ImGui::SliderFloat("Green Channel", &m_shape_color.g, 0.0f, 1.0f);
-		//Blue Channel - retrieve blue color
-		ImGui::SliderFloat("Blue Channel", &m_shape_color.b, 0.0f, 1.0f);
-		//rotate
-		ImGui::SliderFloat("Rotate", &m_shape_rotation, 0.0f, 2*PI);
 
-		
-		
 
+		// Add more gui elements here here ...
+
+
+		// Create Button, and check if it was clicked:
+		if( ImGui::Button( "Quit Application" ) ) {
+			glfwSetWindowShouldClose(m_window, GL_TRUE);
+		}
 
 		ImGui::Text( "Framerate: %.1f FPS", ImGui::GetIO().Framerate );
 
 	ImGui::End();
-}
-//----------------------------------------------------------------------------------------
-/*
- * reset the trangle to original state
- */
-void A0::reset(){
-	m_shape_color = glm::vec3(1.0f, 1.0f, 1.0f);
-	m_shape_translation = vec2(0.0f);
-	m_shape_size = 1.0f;
-	m_shape_rotation = 0.0f;
-	m_mouse_GL_coordinate = dvec2(0.0);
-	m_mouseButtonActive = false;
 }
 
 //----------------------------------------------------------------------------------------
@@ -363,25 +338,16 @@ bool A0::keyInputEvent(int key, int action, int mods) {
 	if (action == GLFW_PRESS) {
 		if (key == GLFW_KEY_EQUAL) {
 			cout << "+ key pressed" << endl;
-			// increase shape size.
-			m_shape_size *= 1.1;
+
+			// TODO - increase shape size.
 
 			eventHandled = true;
 		}
 		if (key == GLFW_KEY_MINUS) {
 			cout << "- key pressed" << endl;
 
-			// decrease shape size.
-			m_shape_size /= 1.1;
+			// TODO - decrease shape size.
 
-			eventHandled = true;
-		}
-		if(key == GLFW_KEY_Q){
-			glfwSetWindowShouldClose(m_window, GL_TRUE);
-			eventHandled = true;
-		}
-		if(key == GLFW_KEY_R){
-			reset();
 			eventHandled = true;
 		}
 	}

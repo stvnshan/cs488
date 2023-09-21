@@ -1,4 +1,4 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #include "A2.hpp"
 #include "cs488-framework/GlErrorCheck.hpp"
@@ -46,7 +46,7 @@ A2::~A2()
 void A2::init()
 {
 	// Set the background colour.
-	glClearColor(0.2, 0.5, 0.3, 1.0);
+	glClearColor(0.3, 0.5, 0.7, 1.0);
 
 	createShaderProgram();
 
@@ -68,7 +68,7 @@ void A2::createShaderProgram()
 	m_shader.link();
 }
 
-//---------------------------------------------------------------------------------------- Fall 2022
+//---------------------------------------------------------------------------------------- Spring 2020
 void A2::enableVertexAttribIndices()
 {
 	glBindVertexArray(m_vao);

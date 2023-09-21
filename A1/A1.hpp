@@ -1,4 +1,4 @@
-// Termm--Fall 2023
+// Termm--Fall 2020
 
 #pragma once
 
@@ -28,14 +28,9 @@ protected:
 	virtual bool mouseScrollEvent(double xOffSet, double yOffSet) override;
 	virtual bool windowResizeEvent(int width, int height) override;
 	virtual bool keyInputEvent(int key, int action, int mods) override;
-	
 
 private:
 	void initGrid();
-	bool ifWall();
-	void redrawCubes();
-	void digg();
-	void reset();
 
 	// Fields related to the shader and uniforms.
 	ShaderProgram m_shader;
@@ -48,60 +43,10 @@ private:
 	GLuint m_grid_vao; // Vertex Array Object
 	GLuint m_grid_vbo; // Vertex Buffer Object
 
-	GLuint cube_vao;
-	GLuint cube_vbo;
-
-	GLuint sphere_vao;
-	GLuint sphere_vbo;
-
-	GLuint s_indices_vao;
-	GLuint s_indices_vbo;
-
 	// Matrices controlling the camera and projection.
 	glm::mat4 proj;
 	glm::mat4 view;
 
 	float colour[3];
-	float mazeC[3];
-	float floorC[3];
-	float sphereC[3];
 	int current_col;
-	
-
-
-	Maze m = Maze(16);
-	int blockNum;
-
-
-	int sx = 0;
-	int sz = 0;
-
-	int wallS = 1;
-
-	GLfloat fov = 1;
-	GLfloat radius = 0.5f;  
-	GLfloat camX = 0;
-	GLfloat camZ = 1; 
-	GLfloat camY = 0;   
-	GLfloat lastX = 0; 
-	GLfloat lastY = 0;
-	GLfloat xoffset;    
-	GLfloat camRotDistance = 0.0f;    
-	GLboolean isFirstMouse = GL_TRUE;    
-	GLboolean isLeftMousePress = GL_FALSE;
-
-
-	float resistanceD = 0;
-	float deltaTime = 0;
-	float lastFrame = 0;
-	float curFrame = 0;
-	float speed = 0;
-
-
-	bool resis = false;
-	bool firsttime = true;
-
-	bool digged = false;
-
-	
 };

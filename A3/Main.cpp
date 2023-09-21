@@ -1,4 +1,4 @@
-// Term-Fall 2023
+// Term-Winter 2021
 
 #include "A3.hpp"
 
@@ -9,9 +9,9 @@ int main( int argc, char **argv )
 {
 	if (argc > 1) {
 		std::string luaSceneFile(argv[1]);
-		std::string title("F23 Assignment 3 * (");
+		std::string title("W21 Assignment 3 - [");
 		title += luaSceneFile;
-		title += ")";
+		title += "]";
 
 		CS488Window::launch(argc, argv, new A3(luaSceneFile), 1024, 768, title);
 
