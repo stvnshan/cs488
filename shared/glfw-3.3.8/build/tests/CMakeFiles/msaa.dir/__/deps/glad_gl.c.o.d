@@ -1,5 +1,5 @@
 tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
@@ -80,5 +80,5 @@ tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/secure/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/secure/_string.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/gl.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/khrplatform.h
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/gl.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/khrplatform.h

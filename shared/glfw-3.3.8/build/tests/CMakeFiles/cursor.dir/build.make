@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8
+CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build
+CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/cursor.dir/depend.make
@@ -70,32 +70,32 @@ include tests/CMakeFiles/cursor.dir/progress.make
 include tests/CMakeFiles/cursor.dir/flags.make
 
 tests/CMakeFiles/cursor.dir/cursor.c.o: tests/CMakeFiles/cursor.dir/flags.make
-tests/CMakeFiles/cursor.dir/cursor.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/cursor.c
+tests/CMakeFiles/cursor.dir/cursor.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/cursor.c
 tests/CMakeFiles/cursor.dir/cursor.c.o: tests/CMakeFiles/cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/cursor.dir/cursor.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/cursor.dir/cursor.c.o -MF CMakeFiles/cursor.dir/cursor.c.o.d -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/cursor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/cursor.dir/cursor.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/cursor.dir/cursor.c.o -MF CMakeFiles/cursor.dir/cursor.c.o.d -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/cursor.c
 
 tests/CMakeFiles/cursor.dir/cursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cursor.dir/cursor.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/cursor.c > CMakeFiles/cursor.dir/cursor.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/cursor.c > CMakeFiles/cursor.dir/cursor.c.i
 
 tests/CMakeFiles/cursor.dir/cursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cursor.dir/cursor.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/cursor.c -o CMakeFiles/cursor.dir/cursor.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/cursor.c -o CMakeFiles/cursor.dir/cursor.c.s
 
 tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o: tests/CMakeFiles/cursor.dir/flags.make
-tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o: tests/CMakeFiles/cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -MF CMakeFiles/cursor.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -MF CMakeFiles/cursor.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 
 tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cursor.dir/__/deps/glad_gl.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/cursor.dir/__/deps/glad_gl.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/cursor.dir/__/deps/glad_gl.c.i
 
 tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cursor.dir/__/deps/glad_gl.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.s
 
 # Object files for target cursor
 cursor_OBJECTS = \
@@ -110,18 +110,18 @@ tests/cursor: tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o
 tests/cursor: tests/CMakeFiles/cursor.dir/build.make
 tests/cursor: src/libglfw3.a
 tests/cursor: tests/CMakeFiles/cursor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable cursor"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable cursor"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cursor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/cursor.dir/build: tests/cursor
 .PHONY : tests/CMakeFiles/cursor.dir/build
 
 tests/CMakeFiles/cursor.dir/clean:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/cursor.dir/cmake_clean.cmake
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/cursor.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/cursor.dir/clean
 
 tests/CMakeFiles/cursor.dir/depend:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests/CMakeFiles/cursor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests/CMakeFiles/cursor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tests/CMakeFiles/cursor.dir/depend
 

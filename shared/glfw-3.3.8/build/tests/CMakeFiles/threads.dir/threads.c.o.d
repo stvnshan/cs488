@@ -1,6 +1,6 @@
 tests/CMakeFiles/threads.dir/threads.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/threads.c \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/tinycthread.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/threads.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/tinycthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \
@@ -54,8 +54,8 @@ tests/CMakeFiles/threads.dir/threads.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/pthread/qos.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/gl.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/khrplatform.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/gl.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint8_t.h \
@@ -64,7 +64,7 @@ tests/CMakeFiles/threads.dir/threads.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/include/GLFW/glfw3.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \

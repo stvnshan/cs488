@@ -64,4 +64,6 @@ protected:
 
 	// True if mouse button is currently down.
 	bool m_mouseButtonActive;
+
+	
 };

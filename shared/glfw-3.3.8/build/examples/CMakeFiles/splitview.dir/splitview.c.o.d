@@ -1,7 +1,7 @@
 examples/CMakeFiles/splitview.dir/splitview.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/splitview.c \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/gl.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/khrplatform.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/splitview.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/gl.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h \
@@ -29,7 +29,7 @@ examples/CMakeFiles/splitview.dir/splitview.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/include/GLFW/glfw3.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
@@ -79,4 +79,4 @@ examples/CMakeFiles/splitview.dir/splitview.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/linmath.h
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/linmath.h

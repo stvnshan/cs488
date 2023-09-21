@@ -221,7 +221,8 @@ void A0::guiLogic()
 		//rotate
 		ImGui::SliderFloat("Rotate", &m_shape_rotation, 0.0f, 2*PI);
 
-		// Add more gui elements here here ...
+		
+		
 
 
 		ImGui::Text( "Framerate: %.1f FPS", ImGui::GetIO().Framerate );

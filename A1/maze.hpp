@@ -6,10 +6,11 @@ class Maze
 {
 public:
 	Maze( size_t dim );
+	// Maze();
 	~Maze();
 
 	void reset();
-
+	
 	size_t getDim() const;
 
 	int getValue( int x, int y ) const;

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8
+CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build
+CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/opacity.dir/depend.make
@@ -70,32 +70,32 @@ include tests/CMakeFiles/opacity.dir/progress.make
 include tests/CMakeFiles/opacity.dir/flags.make
 
 tests/CMakeFiles/opacity.dir/opacity.c.o: tests/CMakeFiles/opacity.dir/flags.make
-tests/CMakeFiles/opacity.dir/opacity.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/opacity.c
+tests/CMakeFiles/opacity.dir/opacity.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/opacity.c
 tests/CMakeFiles/opacity.dir/opacity.c.o: tests/CMakeFiles/opacity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/opacity.dir/opacity.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/opacity.dir/opacity.c.o -MF CMakeFiles/opacity.dir/opacity.c.o.d -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/opacity.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/opacity.dir/opacity.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/opacity.dir/opacity.c.o -MF CMakeFiles/opacity.dir/opacity.c.o.d -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/opacity.c
 
 tests/CMakeFiles/opacity.dir/opacity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/opacity.dir/opacity.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/opacity.c > CMakeFiles/opacity.dir/opacity.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/opacity.c > CMakeFiles/opacity.dir/opacity.c.i
 
 tests/CMakeFiles/opacity.dir/opacity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/opacity.dir/opacity.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/opacity.c -o CMakeFiles/opacity.dir/opacity.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/opacity.c -o CMakeFiles/opacity.dir/opacity.c.s
 
 tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o: tests/CMakeFiles/opacity.dir/flags.make
-tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o: tests/CMakeFiles/opacity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -MF CMakeFiles/opacity.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -MF CMakeFiles/opacity.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 
 tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/opacity.dir/__/deps/glad_gl.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/opacity.dir/__/deps/glad_gl.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/opacity.dir/__/deps/glad_gl.c.i
 
 tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/opacity.dir/__/deps/glad_gl.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.s
 
 # Object files for target opacity
 opacity_OBJECTS = \
@@ -110,18 +110,18 @@ tests/opacity.app/Contents/MacOS/opacity: tests/CMakeFiles/opacity.dir/__/deps/g
 tests/opacity.app/Contents/MacOS/opacity: tests/CMakeFiles/opacity.dir/build.make
 tests/opacity.app/Contents/MacOS/opacity: src/libglfw3.a
 tests/opacity.app/Contents/MacOS/opacity: tests/CMakeFiles/opacity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable opacity.app/Contents/MacOS/opacity"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opacity.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable opacity.app/Contents/MacOS/opacity"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opacity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/opacity.dir/build: tests/opacity.app/Contents/MacOS/opacity
 .PHONY : tests/CMakeFiles/opacity.dir/build
 
 tests/CMakeFiles/opacity.dir/clean:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/opacity.dir/cmake_clean.cmake
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/opacity.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/opacity.dir/clean
 
 tests/CMakeFiles/opacity.dir/depend:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/tests/CMakeFiles/opacity.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/tests/CMakeFiles/opacity.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tests/CMakeFiles/opacity.dir/depend
 

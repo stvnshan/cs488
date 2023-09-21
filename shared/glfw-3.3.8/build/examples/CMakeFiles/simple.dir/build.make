@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8
+CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build
+CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/simple.dir/depend.make
@@ -69,37 +69,37 @@ include examples/CMakeFiles/simple.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/CMakeFiles/simple.dir/flags.make
 
-examples/simple.app/Contents/Resources/glfw.icns: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/glfw.icns
+examples/simple.app/Contents/Resources/glfw.icns: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/glfw.icns
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Copying OS X content examples/simple.app/Contents/Resources/glfw.icns"
-	$(CMAKE_COMMAND) -E copy /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/glfw.icns examples/simple.app/Contents/Resources/glfw.icns
+	$(CMAKE_COMMAND) -E copy /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/glfw.icns examples/simple.app/Contents/Resources/glfw.icns
 
 examples/CMakeFiles/simple.dir/simple.c.o: examples/CMakeFiles/simple.dir/flags.make
-examples/CMakeFiles/simple.dir/simple.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/simple.c
+examples/CMakeFiles/simple.dir/simple.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/simple.c
 examples/CMakeFiles/simple.dir/simple.c.o: examples/CMakeFiles/simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/simple.dir/simple.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/simple.dir/simple.c.o -MF CMakeFiles/simple.dir/simple.c.o.d -o CMakeFiles/simple.dir/simple.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/simple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/simple.dir/simple.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/simple.dir/simple.c.o -MF CMakeFiles/simple.dir/simple.c.o.d -o CMakeFiles/simple.dir/simple.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/simple.c
 
 examples/CMakeFiles/simple.dir/simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/simple.dir/simple.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/simple.c > CMakeFiles/simple.dir/simple.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/simple.c > CMakeFiles/simple.dir/simple.c.i
 
 examples/CMakeFiles/simple.dir/simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/simple.dir/simple.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/simple.c -o CMakeFiles/simple.dir/simple.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/simple.c -o CMakeFiles/simple.dir/simple.c.s
 
 examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o: examples/CMakeFiles/simple.dir/flags.make
-examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o: examples/CMakeFiles/simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o -MF CMakeFiles/simple.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o -MF CMakeFiles/simple.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 
 examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/simple.dir/__/deps/glad_gl.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/simple.dir/__/deps/glad_gl.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/simple.dir/__/deps/glad_gl.c.i
 
 examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/simple.dir/__/deps/glad_gl.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/simple.dir/__/deps/glad_gl.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/simple.dir/__/deps/glad_gl.c.s
 
 # Object files for target simple
 simple_OBJECTS = \
@@ -114,8 +114,8 @@ examples/simple.app/Contents/MacOS/simple: examples/CMakeFiles/simple.dir/__/dep
 examples/simple.app/Contents/MacOS/simple: examples/CMakeFiles/simple.dir/build.make
 examples/simple.app/Contents/MacOS/simple: src/libglfw3.a
 examples/simple.app/Contents/MacOS/simple: examples/CMakeFiles/simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable simple.app/Contents/MacOS/simple"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable simple.app/Contents/MacOS/simple"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/simple.dir/build: examples/simple.app/Contents/MacOS/simple
@@ -123,10 +123,10 @@ examples/CMakeFiles/simple.dir/build: examples/simple.app/Contents/Resources/glf
 .PHONY : examples/CMakeFiles/simple.dir/build
 
 examples/CMakeFiles/simple.dir/clean:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/simple.dir/cmake_clean.cmake
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/simple.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/simple.dir/clean
 
 examples/CMakeFiles/simple.dir/depend:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples/CMakeFiles/simple.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples/CMakeFiles/simple.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : examples/CMakeFiles/simple.dir/depend
 

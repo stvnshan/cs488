@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/getopt.c" "tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o" "gcc" "tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o.d"
-  "/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c" "tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o" "gcc" "tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o.d"
-  "/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/iconify.c" "tests/CMakeFiles/iconify.dir/iconify.c.o" "gcc" "tests/CMakeFiles/iconify.dir/iconify.c.o.d"
+  "/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/getopt.c" "tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o" "gcc" "tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o.d"
+  "/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c" "tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o" "gcc" "tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o.d"
+  "/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/iconify.c" "tests/CMakeFiles/iconify.dir/iconify.c.o" "gcc" "tests/CMakeFiles/iconify.dir/iconify.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

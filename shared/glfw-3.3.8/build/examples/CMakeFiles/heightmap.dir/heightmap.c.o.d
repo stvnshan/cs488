@@ -1,5 +1,5 @@
 examples/CMakeFiles/heightmap.dir/heightmap.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/heightmap.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/heightmap.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h \
@@ -77,6 +77,6 @@ examples/CMakeFiles/heightmap.dir/heightmap.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/gl.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/khrplatform.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/include/GLFW/glfw3.h
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/gl.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/khrplatform.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/include/GLFW/glfw3.h

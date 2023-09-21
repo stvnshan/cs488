@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8
+CMAKE_SOURCE_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build
+CMAKE_BINARY_DIR = /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/gears.dir/depend.make
@@ -69,37 +69,37 @@ include examples/CMakeFiles/gears.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/CMakeFiles/gears.dir/flags.make
 
-examples/gears.app/Contents/Resources/glfw.icns: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/glfw.icns
+examples/gears.app/Contents/Resources/glfw.icns: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/glfw.icns
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Copying OS X content examples/gears.app/Contents/Resources/glfw.icns"
-	$(CMAKE_COMMAND) -E copy /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/glfw.icns examples/gears.app/Contents/Resources/glfw.icns
+	$(CMAKE_COMMAND) -E copy /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/glfw.icns examples/gears.app/Contents/Resources/glfw.icns
 
 examples/CMakeFiles/gears.dir/gears.c.o: examples/CMakeFiles/gears.dir/flags.make
-examples/CMakeFiles/gears.dir/gears.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/gears.c
+examples/CMakeFiles/gears.dir/gears.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/gears.c
 examples/CMakeFiles/gears.dir/gears.c.o: examples/CMakeFiles/gears.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/gears.dir/gears.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/gears.dir/gears.c.o -MF CMakeFiles/gears.dir/gears.c.o.d -o CMakeFiles/gears.dir/gears.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/gears.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/gears.dir/gears.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/gears.dir/gears.c.o -MF CMakeFiles/gears.dir/gears.c.o.d -o CMakeFiles/gears.dir/gears.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/gears.c
 
 examples/CMakeFiles/gears.dir/gears.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gears.dir/gears.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/gears.c > CMakeFiles/gears.dir/gears.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/gears.c > CMakeFiles/gears.dir/gears.c.i
 
 examples/CMakeFiles/gears.dir/gears.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gears.dir/gears.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples/gears.c -o CMakeFiles/gears.dir/gears.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples/gears.c -o CMakeFiles/gears.dir/gears.c.s
 
 examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o: examples/CMakeFiles/gears.dir/flags.make
-examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o: /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o: examples/CMakeFiles/gears.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o -MF CMakeFiles/gears.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o -MF CMakeFiles/gears.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c
 
 examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gears.dir/__/deps/glad_gl.c.i"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/gears.dir/__/deps/glad_gl.c.i
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c > CMakeFiles/gears.dir/__/deps/glad_gl.c.i
 
 examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gears.dir/__/deps/glad_gl.c.s"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/gears.dir/__/deps/glad_gl.c.s
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c -o CMakeFiles/gears.dir/__/deps/glad_gl.c.s
 
 # Object files for target gears
 gears_OBJECTS = \
@@ -114,8 +114,8 @@ examples/gears.app/Contents/MacOS/gears: examples/CMakeFiles/gears.dir/__/deps/g
 examples/gears.app/Contents/MacOS/gears: examples/CMakeFiles/gears.dir/build.make
 examples/gears.app/Contents/MacOS/gears: src/libglfw3.a
 examples/gears.app/Contents/MacOS/gears: examples/CMakeFiles/gears.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gears.app/Contents/MacOS/gears"
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gears.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gears.app/Contents/MacOS/gears"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gears.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/gears.dir/build: examples/gears.app/Contents/MacOS/gears
@@ -123,10 +123,10 @@ examples/CMakeFiles/gears.dir/build: examples/gears.app/Contents/Resources/glfw.
 .PHONY : examples/CMakeFiles/gears.dir/build
 
 examples/CMakeFiles/gears.dir/clean:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/gears.dir/cmake_clean.cmake
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/gears.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/gears.dir/clean
 
 examples/CMakeFiles/gears.dir/depend:
-	cd /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/examples /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/build/examples/CMakeFiles/gears.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8 /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/examples /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/build/examples/CMakeFiles/gears.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : examples/CMakeFiles/gears.dir/depend
 

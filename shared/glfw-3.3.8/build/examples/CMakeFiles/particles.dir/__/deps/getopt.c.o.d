@@ -1,6 +1,6 @@
 examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/getopt.c \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/getopt.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/getopt.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/getopt.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types.h \

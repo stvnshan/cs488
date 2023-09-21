@@ -1,6 +1,6 @@
 examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/tinycthread.c \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/tinycthread.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/tinycthread.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/tinycthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \

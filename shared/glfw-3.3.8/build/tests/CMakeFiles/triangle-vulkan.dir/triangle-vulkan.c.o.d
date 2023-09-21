@@ -1,5 +1,5 @@
 tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/triangle-vulkan.c \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/triangle-vulkan.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
@@ -84,7 +84,7 @@ tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/vulkan.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad/vk_platform.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/vulkan.h \
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad/vk_platform.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
-  /Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/include/GLFW/glfw3.h
+  /Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/include/GLFW/glfw3.h

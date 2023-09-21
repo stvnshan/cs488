@@ -5,6 +5,8 @@
 
 #include "maze.hpp"
 
+// Maze::Maze () : m_dim{0}{ m_values = nullptr; }
+
 Maze::Maze( size_t D )
 	: m_dim( D )
 {

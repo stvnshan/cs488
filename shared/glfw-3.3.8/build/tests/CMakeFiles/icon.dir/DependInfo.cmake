@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/deps/glad_gl.c" "tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o" "gcc" "tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o.d"
-  "/Users/stevenshan/Documents/cs488-2/shared/glfw-3.3.8/tests/icon.c" "tests/CMakeFiles/icon.dir/icon.c.o" "gcc" "tests/CMakeFiles/icon.dir/icon.c.o.d"
+  "/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/deps/glad_gl.c" "tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o" "gcc" "tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o.d"
+  "/Users/stevenshan/Documents/cs488/shared/glfw-3.3.8/tests/icon.c" "tests/CMakeFiles/icon.dir/icon.c.o" "gcc" "tests/CMakeFiles/icon.dir/icon.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
